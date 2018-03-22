@@ -1,0 +1,38 @@
+{
+  	"web driver":
+	{
+	  "browser":"firefox",
+	  "chrome driver":"\\drivers\\chromedriver.exe",
+	  "chrome mac driver":"\\drivers\\chromedriver",
+	  "ie32 driver":"\\drivers\\IEDriverServer_32.exe",
+	  "ie64 driver":"\\drivers\\IEDriverServer_64.exe",
+	  "selenium server": "",
+	  "implicit wait time":"30",
+	  "explicit wait time":"40",
+	  "wait sleep time":"500",
+	  "skin name":"MKT"
+	},
+  	"sikuli":
+  	{
+	  "similarity":"0.92",
+	  "implicit wait time":"30",
+	  "explicit wait time":"40"
+  	},
+  	"email":
+  	{
+	  "jenkins port":"8080",
+	  "smtp host":"smtp.gmail.com",
+	  "smtp port": "587",
+	  "user":"NPTSAutomation@gmail.com",
+	  "password":"NPTSAutomation1234",
+	  "subject":"Telescope - Build # ",
+	  "from":"NPTSAutomation@gmail.com",
+	  "to": "silvia.valencia@jalasoft.com,yesica.acha@jalasoft.com, jorge.avila@jalasoft.com, ariel.rojas@jalasoft.com, marylin.moya@jalasoft.com, pablo.sahonero@jalasoft.com, rafael.alfaro@jalasoft.com, NPTSAutomation@gmail.com"
+  	},
+  	"file system":
+	{
+	  "download time factor":"0",
+	  "ingest time factor":"1",
+	  "proxy generation time factor": "10"
+	}
+}
